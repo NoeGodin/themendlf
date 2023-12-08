@@ -29,15 +29,15 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     document.getElementById('arbre').addEventListener('click', function(e) {
-        document.body.style.backgroundImage = "url('./img/arbre.jpg')";
+        document.body.style.backgroundImage = "url('themendlf/img/arbre.jpg')";
     });
 
     document.getElementById('lune').addEventListener('click', function(e) {
-        document.body.style.backgroundImage = "url('/img/lune.jpg')";
+        document.body.style.backgroundImage = "url('themendlf/img/lune.jpg')";
     });
 
     document.getElementById('soleil').addEventListener('click', function(e) {
-        document.body.style.backgroundImage = "url('img/soleil.jpg')";
+        document.body.style.backgroundImage = "url('themendlf/img/soleil.jpg')";
     });
 
 });
